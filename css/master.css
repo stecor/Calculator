@@ -1,10 +1,28 @@
 .center-body{
-  border: solid 1px black;
   margin: auto;
   margin-top: 10%;
   background-color: black;
   border-spacing: 10px;
   border-radius: 40px;
+  padding-top: 50px;
+}
+
+.result{
+  color: #F0F0F0;
+  font-size: 3.0em;
+  padding-bottom: 20px;
+  padding-right:  25px;
+  text-align: right;
+}
+
+.btn-com{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #A9A9A9;
+  border-color: #A9A9A9;
+  color: #000;
+  font-size: 1.5em;
 }
 
 .btn-num{
@@ -14,7 +32,7 @@
   background-color: #181818;
   border-color: #181818;
   color: #F0F0F0;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 .btn-num-0{
@@ -24,7 +42,7 @@
   background-color: #181818;
   border-color: #181818;
   color: #F0F0F0;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 
@@ -35,5 +53,5 @@
   background-color: orange;
   border-color: orange;
   color: #F0F0F0;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }

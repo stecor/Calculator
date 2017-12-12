@@ -1,0 +1,39 @@
+.center-body{
+  border: solid 1px black;
+  margin: auto;
+  margin-top: 10%;
+  background-color: black;
+  border-spacing: 10px;
+  border-radius: 40px;
+}
+
+.btn-num{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #181818;
+  border-color: #181818;
+  color: #F0F0F0;
+  font-size: 1.5em;
+}
+
+.btn-num-0{
+  width: 170px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #181818;
+  border-color: #181818;
+  color: #F0F0F0;
+  font-size: 1.5em;
+}
+
+
+.btn-calc{
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: orange;
+  border-color: orange;
+  color: #F0F0F0;
+  font-size: 1.5em;
+}

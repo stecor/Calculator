@@ -8,11 +8,14 @@
 }
 
 #value{
-  color: #F0F0F0;
+  color: #000;
   font-size: 3.0em;
   padding-bottom: 20px;
   padding-right:  25px;
   text-align: right;
+  background-color: #A9A9A9;
+  border-radius: 30px;
+  height: 90px;
 }
 
 .btn-com{

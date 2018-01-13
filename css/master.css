@@ -1,21 +1,41 @@
+body{
+  background:url("https://craftburgercromer.co.uk/wp-content/uploads/2016/08/Wood-Background-1-1024x700.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+}
+
+.title{
+  text-align:center;
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5em;
+}
+
+.author{
+  text-align:center;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3em;
+}
 .center-body{
   margin: auto;
-  margin-top: 10%;
-  background-color: black;
+  margin-top: 50px;
+  background-color: #000;
   border-spacing: 20px;
   border-radius: 40px;
-  padding-top: 50px;
+  border: 4px solid gray;
+  box-shadow: 50px 150px 150px 0 rgba(0, 0, 0, 0.2), 30px 50px 130px 0 rgba(0, 0, 0, 1);
 }
 
 #value{
   color: #000;
   font-size: 3.0em;
-  padding-bottom: 20px;
   padding-right:  25px;
   text-align: right;
   background-color: #A9A9A9;
   border-radius: 30px;
+  border: 1px solid #fff;
   height: 90px;
+  font-family: 'Arial', sans-serif;
 }
 
 .btn-com{
@@ -23,9 +43,19 @@
   height: 80px;
   border-radius: 40px;
   background-color: #A9A9A9;
-  border-color: #A9A9A9;
+  border: 1px solid #fff;
   color: #000;
   font-size: 1.5em;
+  button:focus {outline:0;}
+}
+
+.btn-com:focus {
+  outline:0;
+}
+
+.btn-com:active {
+  outline: none;
+  border: none;
 }
 
 .btn-num{
@@ -33,9 +63,18 @@
   height: 80px;
   border-radius: 40px;
   background-color: #181818;
-  border-color: #181818;
+  border: 1px solid #fff;
   color: #F0F0F0;
-  font-size: 1.6em;
+  font-size: 1.6em; 
+}
+
+.btn-num:focus {
+  outline:0;
+}
+
+.btn-num:active {
+  outline: none;
+  border: none;
 }
 
 .btn-num-0{
@@ -43,18 +82,35 @@
   height: 80px;
   border-radius: 40px;
   background-color: #181818;
-  border-color: #181818;
+  border: 1px solid #fff;
   color: #F0F0F0;
   font-size: 1.6em;
 }
 
+.btn-num-0:focus {
+  outline:0;
+}
+
+.btn-num-0:active {
+  outline: none;
+  border: none;
+}
 
 .btn-calc{
   width: 80px;
   height: 80px;
   border-radius: 40px;
   background-color: orange;
-  border-color: orange;
+  border: 1px solid #fff;
   color: #F0F0F0;
   font-size: 1.7em;
+}
+
+.btn-calc:focus {
+  outline:0;
+}
+
+.btn-calc:active {
+  outline: none;
+  border: none;
 }
